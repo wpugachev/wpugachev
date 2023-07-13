@@ -21,6 +21,7 @@
 Лоадер - процесс производящий запуск страницы и загрузку содерержимого, таблицы, куба
 
 
+
 Check if "Selector" attribute value equals to "Value"
 
 Проверяет значение в инпуте
@@ -45,3 +46,22 @@ Check if the elements in the grid match:
 - Дать расшифровку DND- drag'n'drop
 -Нужен пример что за зоны такие. Выделенный текст это элемент DND?
 
+5.11. * Select element "Option" in "Selector"
+Выбирает опцию в выпадающем списке указанного дропдауна. У дропадуна есть атрибут name который мы можем указать - Dropdown(position)
+
+* Select element "Start" in "Modal > Dropdown(position)"
+* Select element "UTF-8" in "Dropdown(encoding)"
+  - все Dropdown имеют атрибут name? искал в devtools не нашел.
+ 
+* Press "Key"
+Нажимает клавишу клавиатуры один раз
+
+* Press "Enter"
+* Press "ARROW_DOWN"
+  - Список остальных нужных кнопок?
+
+1.1. * Click using coordinates "X:Y"
+Делает клик левой кнопкой мыши, используя координаты. Чаще применяется для графиков
+
+* Click using coordinates "445:408"
+-где брать координаты?
