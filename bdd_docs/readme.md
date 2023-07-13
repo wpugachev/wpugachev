@@ -27,6 +27,7 @@ Check if "Selector" attribute value equals to "Value"
 Проверяет значение в инпуте
 
 * Check if "Modal > Input(dependOn)" attribute value equals to "1.2 Контрагенты"
+  
 -Какой синтаксис селекторов ?откуда и зачем >? Нужно давать расшифровку, либо до шагов разобраться с селекторами, но в ветке с селекторами я также не увидел примеров синтаксиса.
 
 
@@ -44,6 +45,7 @@ Check if the elements in the grid match:
 * Drag "Dnd Element(2.2 Клиенты)" and drop it into "Dnd Zone(Pages)"
 
 - Дать расшифровку DND- drag'n'drop
+  
 -Нужен пример что за зоны такие. Выделенный текст это элемент DND?
 
 5.11. * Select element "Option" in "Selector"
@@ -51,6 +53,7 @@ Check if the elements in the grid match:
 
 * Select element "Start" in "Modal > Dropdown(position)"
 * Select element "UTF-8" in "Dropdown(encoding)"
+  
   - все Dropdown имеют атрибут name? искал в devtools не нашел.
  
 * Press "Key"
@@ -58,10 +61,12 @@ Check if the elements in the grid match:
 
 * Press "Enter"
 * Press "ARROW_DOWN"
+  
   - Список остальных нужных кнопок?
 
 1.1. * Click using coordinates "X:Y"
 Делает клик левой кнопкой мыши, используя координаты. Чаще применяется для графиков
 
 * Click using coordinates "445:408"
+  
 -где брать координаты?
